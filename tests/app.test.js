@@ -6,10 +6,10 @@ describe('application routes', () => {
     return request(app)
       .get('/index.html')
       .then(res => {
-        expect(res.text).toEqual(expect.stringContaining('Max'));
+        expect(res.text).toEqual(expect.stringContaining('path'));
       });
   });
-  
+
   it('returns 404 with nothing behind /', () => {
     return request(app)
       .get('/')
