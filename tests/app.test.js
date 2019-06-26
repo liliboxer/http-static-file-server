@@ -18,3 +18,4 @@ describe('application routes', () => {
       });
   });
 });
+
