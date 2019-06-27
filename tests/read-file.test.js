@@ -1,4 +1,4 @@
-const readFile = require('../lib/read-file');
+const { readFile } = require('../lib/read-file');
 
 describe('dealing with file', () => {
   it('read', done => {
