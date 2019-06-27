@@ -1,6 +1,5 @@
 const request = require('supertest');
 const app = require('../lib/app');
-const readFile = require('../lib/read-file');
 
 describe('application routes', () => {
   it('returns index.html', () => {
